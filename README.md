@@ -13,7 +13,7 @@ Use this module to easily create any number of EC2 resources of your choosing in
 In your terraform script:
 
 ```
-module "server_itk8s_lab" {
+module "ec2_instances" {
   source = "github.com/ecsdigital-demo-terraform-modules/terraform-aws-demo-ec2"
 
   # VARIABLE DEFINITION
